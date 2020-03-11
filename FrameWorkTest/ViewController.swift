@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let randomString = RandomGenerator.string()
+        print(randomString)
+        
+        let randomInt = RandomGenerator.integer()
+        print(randomInt)
 
     }
 
