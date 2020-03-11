@@ -7,16 +7,15 @@
 //
 
 import UIKit
+import UseFrameWork
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let randomString = RandomGenerator.string()
-        print(randomString)
-        let randomInteger = RandomGenerator.integer()
-        print(randomInteger)
+
     }
 
 
