@@ -1,0 +1,11 @@
+framework module UseFrameWork {
+  umbrella header "UseFrameWork.h"
+
+  export *
+  module * { export * }
+}
+
+module UseFrameWork.Swift {
+    header "UseFrameWork-Swift.h"
+    requires objc
+}
