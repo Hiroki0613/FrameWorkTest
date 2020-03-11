@@ -14,8 +14,24 @@
 		7F4635992419226F00F50EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4635982419226F00F50EE2 /* Assets.xcassets */; };
 		7F46359C2419226F00F50EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F46359A2419226F00F50EE2 /* LaunchScreen.storyboard */; };
 		7F4635A4241922A600F50EE2 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4635A3241922A600F50EE2 /* Random.swift */; };
-		7F4635BF2419274100F50EE2 /* UseFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4635BE2419274100F50EE2 /* UseFrameWork.framework */; };
+		7F4635C12419329600F50EE2 /* UseFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4635C02419329600F50EE2 /* UseFrameWork.framework */; };
+		7F4635C32419334000F50EE2 /* UseFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4635C02419329600F50EE2 /* UseFrameWork.framework */; };
+		7F4635C42419334000F50EE2 /* UseFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4635C02419329600F50EE2 /* UseFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F4635C52419334000F50EE2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7F4635C42419334000F50EE2 /* UseFrameWork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7F46358C2419226E00F50EE2 /* FrameWorkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameWorkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +43,7 @@
 		7F46359B2419226F00F50EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F46359D2419226F00F50EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4635A3241922A600F50EE2 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		7F4635BE2419274100F50EE2 /* UseFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UseFrameWork.framework; sourceTree = "<group>"; };
+		7F4635C02419329600F50EE2 /* UseFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UseFrameWork.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F4635BF2419274100F50EE2 /* UseFrameWork.framework in Frameworks */,
+				7F4635C12419329600F50EE2 /* UseFrameWork.framework in Frameworks */,
+				7F4635C32419334000F50EE2 /* UseFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,9 +62,10 @@
 		7F4635832419226E00F50EE2 = {
 			isa = PBXGroup;
 			children = (
-				7F4635BE2419274100F50EE2 /* UseFrameWork.framework */,
+				7F4635C02419329600F50EE2 /* UseFrameWork.framework */,
 				7F46358E2419226E00F50EE2 /* FrameWorkTest */,
 				7F46358D2419226E00F50EE2 /* Products */,
+				7F4635C22419334000F50EE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +92,13 @@
 			path = FrameWorkTest;
 			sourceTree = "<group>";
 		};
+		7F4635C22419334000F50EE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,6 +109,7 @@
 				7F4635882419226E00F50EE2 /* Sources */,
 				7F4635892419226E00F50EE2 /* Frameworks */,
 				7F46358A2419226E00F50EE2 /* Resources */,
+				7F4635C52419334000F50EE2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
