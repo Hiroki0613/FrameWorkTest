@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        let randomString = RandomGenerator.string()
+        print(randomString)
+        let randomInteger = RandomGenerator.integer()
+        print(randomInteger)
     }
 
 

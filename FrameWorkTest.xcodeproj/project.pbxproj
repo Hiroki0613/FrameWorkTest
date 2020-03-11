@@ -13,6 +13,7 @@
 		7F4635972419226E00F50EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4635952419226E00F50EE2 /* Main.storyboard */; };
 		7F4635992419226F00F50EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4635982419226F00F50EE2 /* Assets.xcassets */; };
 		7F46359C2419226F00F50EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F46359A2419226F00F50EE2 /* LaunchScreen.storyboard */; };
+		7F4635A4241922A600F50EE2 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4635A3241922A600F50EE2 /* RandomGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7F4635982419226F00F50EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F46359B2419226F00F50EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F46359D2419226F00F50EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4635A3241922A600F50EE2 /* RandomGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7F4635982419226F00F50EE2 /* Assets.xcassets */,
 				7F46359A2419226F00F50EE2 /* LaunchScreen.storyboard */,
 				7F46359D2419226F00F50EE2 /* Info.plist */,
+				7F4635A3241922A600F50EE2 /* RandomGenerator.swift */,
 			);
 			path = FrameWorkTest;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4635A4241922A600F50EE2 /* RandomGenerator.swift in Sources */,
 				7F4635942419226E00F50EE2 /* ViewController.swift in Sources */,
 				7F4635902419226E00F50EE2 /* AppDelegate.swift in Sources */,
 				7F4635922419226E00F50EE2 /* SceneDelegate.swift in Sources */,
